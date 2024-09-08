@@ -32,5 +32,9 @@ cd delas
 Then, you can test your Kedro installation:
 
 ```
-kedro --version
+kedro info
 ```
+
+**Expected output**
+
+<img width="1012" alt="image" src="https://github.com/user-attachments/assets/5f42e5f5-79c7-489a-8a1e-8327a463040e">
