@@ -1,0 +1,101 @@
+2024-09-08 18:27:54,458 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/google/rpc/__init__.py:20: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.rpc')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  pkg_resources.declare_namespace(__name__)
+
+2024-09-08 18:27:54,462 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/pkg_resources/__init__.py:2350: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(parent)
+
+2024-09-08 18:27:57,817 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/jupyter_client/connect.py:28: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+given by the platformdirs library.  To remove this warning and
+see the appropriate new directories, set the environment variable
+`JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+The use of platformdirs will be the default in `jupyter_core` v6
+  from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+2024-09-08 18:28:00,123 - kedro.ipython - INFO - Kedro project delas
+2024-09-08 18:28:00,127 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2024-09-08 18:28:05,756 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/kedro_viz/api/graphql/types.py:65: DeprecationWarning: Passing types to `strawberry.union` is deprecated. Please use UpdateRunDetailsResponse = Annotated[Union[A, B], strawberry.union("UpdateRunDetailsResponse")] instead
+  UpdateRunDetailsResponse = strawberry.union(
+
+2024-09-08 18:28:07,268 - kedro.ipython - INFO - Registered line magic 'run_viz'
+2024-09-08 18:28:09,088 - kedro.io.data_catalog - INFO - Loading data from 'companies' (CSVDataSet)...
+2024-09-08 18:30:20,981 - kedro.framework.session.session - INFO - Kedro project delas
+2024-09-08 18:31:33,103 - kedro.framework.session.session - INFO - Kedro project delas
+2024-09-08 18:31:33,648 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/google/rpc/__init__.py:20: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.rpc')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  pkg_resources.declare_namespace(__name__)
+
+2024-09-08 18:31:33,650 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/pkg_resources/__init__.py:2350: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(parent)
+
+2024-09-08 18:31:34,261 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/jupyter_client/connect.py:28: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+given by the platformdirs library.  To remove this warning and
+see the appropriate new directories, set the environment variable
+`JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+The use of platformdirs will be the default in `jupyter_core` v6
+  from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+2024-09-08 18:31:34,456 - kedro.io.data_catalog - INFO - Loading data from 'companies' (CSVDataSet)...
+2024-09-08 18:31:34,479 - kedro.pipeline.node - INFO - Running node: preprocess_companies_node: preprocess_companies([companies]) -> [preprocessed_companies]
+2024-09-08 18:31:34,497 - kedro.io.data_catalog - INFO - Saving data to 'preprocessed_companies' (MemoryDataSet)...
+2024-09-08 18:31:34,499 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2024-09-08 18:31:34,500 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2024-09-08 18:31:34,500 - kedro.io.data_catalog - INFO - Loading data from 'preprocessed_companies' (MemoryDataSet)...
+2024-09-08 18:32:16,826 - kedro.framework.session.session - INFO - Kedro project delas
+2024-09-08 18:32:17,444 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/google/rpc/__init__.py:20: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.rpc')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  pkg_resources.declare_namespace(__name__)
+
+2024-09-08 18:32:17,446 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/pkg_resources/__init__.py:2350: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(parent)
+
+2024-09-08 18:32:17,809 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/jupyter_client/connect.py:28: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+given by the platformdirs library.  To remove this warning and
+see the appropriate new directories, set the environment variable
+`JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+The use of platformdirs will be the default in `jupyter_core` v6
+  from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+2024-09-08 18:32:17,953 - kedro.io.data_catalog - INFO - Loading data from 'companies' (CSVDataSet)...
+2024-09-08 18:32:17,976 - kedro.pipeline.node - INFO - Running node: preprocess_companies_node: preprocess_companies([companies]) -> [preprocessed_companies]
+2024-09-08 18:32:17,995 - kedro.io.data_catalog - INFO - Saving data to 'preprocessed_companies' (CSVDataSet)...
+2024-09-08 18:32:18,138 - kedro.runner.sequential_runner - INFO - Completed 1 out of 2 tasks
+2024-09-08 18:32:18,139 - kedro.io.data_catalog - INFO - Loading data from 'shuttles' (ExcelDataSet)...
+2024-09-08 18:32:24,544 - kedro.pipeline.node - INFO - Running node: preprocess_shuttles_node: preprocess_shuttles([shuttles]) -> [preprocessed_shuttles]
+2024-09-08 18:32:24,560 - py.warnings - WARNING - /Users/carla_vieira/Documents/delas_bootcamp/delas/src/delas/pipelines/data_processing/nodes.py:18: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.
+  x = x.str.replace("$", "").str.replace(",", "")
+
+2024-09-08 18:32:24,592 - kedro.io.data_catalog - INFO - Saving data to 'preprocessed_shuttles' (CSVDataSet)...
+2024-09-08 18:32:24,864 - kedro.runner.sequential_runner - INFO - Completed 2 out of 2 tasks
+2024-09-08 18:32:24,865 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2024-09-08 19:24:27,102 - kedro.framework.session.session - INFO - Kedro project delas
+2024-09-08 19:24:29,942 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/google/rpc/__init__.py:20: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google.rpc')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  pkg_resources.declare_namespace(__name__)
+
+2024-09-08 19:24:29,947 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/pkg_resources/__init__.py:2350: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(parent)
+
+2024-09-08 19:24:32,476 - py.warnings - WARNING - /opt/homebrew/lib/python3.8/site-packages/jupyter_client/connect.py:28: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+given by the platformdirs library.  To remove this warning and
+see the appropriate new directories, set the environment variable
+`JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+The use of platformdirs will be the default in `jupyter_core` v6
+  from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+2024-09-08 19:24:33,253 - kedro.io.data_catalog - INFO - Loading data from 'companies' (CSVDataSet)...
+2024-09-08 19:24:33,285 - kedro.pipeline.node - INFO - Running node: preprocess_companies_node: preprocess_companies([companies]) -> [preprocessed_companies]
+2024-09-08 19:24:33,308 - kedro.io.data_catalog - INFO - Saving data to 'preprocessed_companies' (CSVDataSet)...
+2024-09-08 19:24:33,456 - kedro.runner.sequential_runner - INFO - Completed 1 out of 2 tasks
+2024-09-08 19:24:33,457 - kedro.io.data_catalog - INFO - Loading data from 'shuttles' (ExcelDataSet)...
+2024-09-08 19:24:39,814 - kedro.pipeline.node - INFO - Running node: preprocess_shuttles_node: preprocess_shuttles([shuttles]) -> [preprocessed_shuttles]
+2024-09-08 19:24:39,843 - py.warnings - WARNING - /Users/carla_vieira/Documents/delas_bootcamp/delas/src/delas/pipelines/data_processing/nodes.py:18: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.
+  x = x.str.replace("$", "").str.replace(",", "")
+
+2024-09-08 19:24:39,875 - kedro.io.data_catalog - INFO - Saving data to 'preprocessed_shuttles' (CSVDataSet)...
+2024-09-08 19:24:40,146 - kedro.runner.sequential_runner - INFO - Completed 2 out of 2 tasks
+2024-09-08 19:24:40,147 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
