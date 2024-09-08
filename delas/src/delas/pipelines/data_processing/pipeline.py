@@ -4,7 +4,7 @@ generated using Kedro 0.19.8
 """
 from kedro.pipeline import Pipeline, node, pipeline
 
-from .nodes import preprocess_companies, preprocess_shuttles
+from delas.pipelines.data_processing.nodes import preprocess_companies, preprocess_shuttles
 
 def create_pipeline(**kwargs) -> Pipeline:
     return pipeline(
@@ -20,7 +20,6 @@ def create_pipeline(**kwargs) -> Pipeline:
                 inputs="shuttles",
                 outputs="preprocessed_shuttles",
                 name="preprocess_shuttles_node",
-            ),
-            ...,
+            )
         ]
     )

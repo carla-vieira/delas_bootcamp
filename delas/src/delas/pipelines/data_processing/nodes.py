@@ -5,7 +5,6 @@ generated using Kedro 0.19.8
 
 import pandas as pd
 
-
 def _is_true(x: pd.Series) -> pd.Series:
     return x == "t"
 
