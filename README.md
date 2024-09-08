@@ -22,13 +22,14 @@ pip install -r delas/requirements.txt
 
 ### 2. Test if installation was sucessfull
 
-You can run your Kedro project with:
+Change into kedro directory
 
 ```
 cd delas
 ```
 
-Then 
+Then, you can run your Kedro project with:
+
 
 ```
 kedro run
