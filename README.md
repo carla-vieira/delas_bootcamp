@@ -13,6 +13,7 @@ This is a template repo that will guide us through the whole course.
    - windows tutorial: https://python.org.br/instalacao-windows/
 - Install git
   - https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+- Install [Visual Studio Code](https://code.visualstudio.com/download)
 
 ### 1. Install project requirements
 
