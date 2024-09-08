@@ -25,5 +25,11 @@ pip install -r delas/requirements.txt
 You can run your Kedro project with:
 
 ```
+cd delas
+```
+
+Then 
+
+```
 kedro run
 ```
