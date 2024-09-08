@@ -28,9 +28,8 @@ Change into kedro directory
 cd delas
 ```
 
-Then, you can run your Kedro project with:
-
+Then, you can test your Kedro installation:
 
 ```
-kedro run
+kedro --version
 ```
